@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  font-style: sans-serif;
+
+}
+
+nav{
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  float: right;
+  text-decoration: none;
+  margin-left: 1em;
+  justify-content: flex-end;
+  flex-basis: 15vw;
+  flex-shrink: 0;
+}
+
+nav a{
+  color: white;
+  padding: 0.25em 0.5em;
+  margin: 1em;
+  transition: background-color 0.6s;
+
+}
+
+nav a:hover{
+  background-color: purple;
+}
+
+header, section{
+  overflow: auto;
+  background-color: black;
+  color: purple;
+  padding: 0 0.5em;
+
+}
+
+section{
+  display: flex;;
+  flex-direction: row-reverse;
+
+}
